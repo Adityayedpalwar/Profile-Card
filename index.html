@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Profile Card</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #1f1f1f; /* Dark mode background color */
+      color: #ffffff; /* Text color */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .container {
+      width: 300px;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Shadow effect */
+      background-color: rgba(32, 32, 32, 0.8); /* Semi-transparent dark background color */
+      backdrop-filter: blur(5px); /* Apply blur effect */
+      text-align: center;
+      transition: box-shadow 0.3s ease; /* Transition effect for shadow */
+    }
+
+    .container:hover {
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3); /* Shadow effect on hover */
+    }
+
+    .profile-pic {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin: 0 auto 20px;
+    }
+
+    .aka {
+      background-color: #7289da; /* Discord color */
+      color: white;
+      border-radius: 20px;
+      padding: 3px 10px; /* Adjusted padding */
+      margin-top: 10px;
+      font-style: italic;
+      font-size: 12px; /* Adjusted font size */
+      display: inline-block; /* Added to ensure chip-like appearance */
+    }
+
+    .other-text {
+      font-family: Arial, sans-serif;
+      font-weight: bold;
+      color: #aaaaaa; /* Light gray color */
+    }
+
+    .social-links {
+      margin-top: 20px;
+    }
+
+    .social-links a i {
+      font-size: 24px; /* Increase icon size */
+      border-radius: 50%; /* Make the icon round */
+      background-color: #1f1f1f; /* Dark mode background color */
+      color: #ffffff; /* Icon color */
+      padding: 10px; /* Adjust padding */
+      transition: transform 0.3s ease; /* Transition effect */
+    }
+
+    .social-links a i.fa-github {
+      background-color: #24292e; /* Github icon color */
+    }
+
+    .social-links a i.fa-snapchat {
+      background-color: #fffc00; /* Snapchat icon color */
+      color: #000000; /* Snapchat icon color */
+    }
+
+    .social-links a i.fa-spotify {
+      background-color: #1db954; /* Spotify icon color */
+    }
+
+    .social-links a i.fa-telegram {
+      background-color: #0088cc; /* Telegram icon color */
+    }
+
+    .social-links a i.fa-twitter {
+      background-color: #1da1f2; /* Twitter icon color */
+    }
+
+    .social-links a {
+      margin: 0 5px;
+      text-decoration: none;
+    }
+
+    .social-links a:hover i {
+      opacity: 0.7; /* Reduce opacity on hover */
+      transform: scale(1.2); /* Increase size on hover */
+    }
+
+    .social-links a:hover {
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2 class="other-text">Profile Card</h2>
+    <img class="profile-pic" src="https://r2.easyimg.io/4z2wei0gw/1000110760.jpg" alt="Profile Picture">
+    <div>
+      <p class="other-text">亗 𝔸𝔻𝕀𝕋𝕐𝔸 亗</p>
+      <p class="aka">aka</p>
+    </div>
+    <p class="other-text">爪℟✩࿐ŁɆᎶɆŇĐ<br>ＡＭ ✘  𝙿𝚁𝙾𝚃𝙰𝙶𝙾𝙽𝙸𝚂𝚃</p>
+    <p class="other-text">Cold Coffee With Ice-Cream</p>
+    <div class="social-links">
+      <a href="https://github.com/Adityayedpalwar"><i class="fa fa-github"></i></a>
+      <a href="https://www.snapchat.com/add/yedpalwar_a?share_id=AbmTySK52bI&locale=en-IN"><i class="fa fa-snapchat"></i></a>
+      <a href="https://open.spotify.com/user/31djjvsatbnbjzjyu7ik5qkvzlem?si=G3DWutijRcOOaQv82bbotQ"><i class="fa fa-spotify"></i></a>
+      <a href="https://t.me/yedpalwar_a"><i class="fa fa-paper-plane fa-telegram"></i></a>
+      <a href="https://x.com/yedpalwar_a?t=xgKnsHxnzEXGRSkf_Y1UGQ&s=09"><i class="fa fa-twitter"></i></a>
+    </div>
+  </div>
+</body>
+</html>
